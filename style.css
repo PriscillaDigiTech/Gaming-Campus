@@ -183,8 +183,8 @@ button:hover {
 
 .main-news-container {
   width: 80%;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: baseline;
   margin: 0 auto 50px;
 }
